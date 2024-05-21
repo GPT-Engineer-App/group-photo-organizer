@@ -18,7 +18,9 @@ const Index = () => {
           <Button leftIcon={<FaUserFriends />} colorScheme="teal" size="lg">Group Photos</Button>
         </Flex>
         
-        <Box mt={8} width="100%" textAlign="center">
+        <Box mt={8} width="100%" textAlign="center" overflowY="scroll" maxHeight="400px">
+          <Image src="/images/sample-photo.jpg" alt="Sample Photo" borderRadius="md" />
+          <Image src="/images/sample-photo.jpg" alt="Sample Photo" borderRadius="md" />
           <Image src="/images/sample-photo.jpg" alt="Sample Photo" borderRadius="md" />
         </Box>
       </VStack>
